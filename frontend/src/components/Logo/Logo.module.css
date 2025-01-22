@@ -1,0 +1,30 @@
+.hoop {
+  width: 8.1875rem;
+  height: 8.1875rem;
+  border-radius: 50%;
+  border: 0.0625rem solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 2s;
+}
+
+.circle {
+  width: 7.5625rem;
+  height: 7.5625rem;
+  border-radius: 50%;
+  background-color: #534678;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 6.375rem;
+  height: auto;
+  object-fit: cover;
+}
+
+.hoop:hover {
+  transform: scale(1.1);
+}
