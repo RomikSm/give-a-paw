@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:regular,900");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.section__container {
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Start section start */
+
+.start__content_bg {
+  width: 907px;
+  height: 827px;
+  background: url("../../../public/images/dog\ astronaut\ floating.png") left /
+    cover no-repeat;
+}
+
+.start__content {
+  display: flex;
+  margin-bottom: 291px;
+}
+
+.context_text_title {
+  max-width: 776px;
+  color: #283c40;
+  font-family: Rubik;
+  font-size: 94px;
+  font-weight: 400;
+  line-height: 74.5px;
+  letter-spacing: 6.24px;
+}
+
+.start__content_text {
+  max-width: 776px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 25px;
+}
+
+.content_text_btn {
+  width: 576px;
+  display: inline-block;
+  padding: 30px 193px;
+  background-color: #f2968f;
+  text-align: center;
+  border-radius: 100px;
+  color: #fcfcfc;
+  font-family: Rubik;
+  font-size: 48px;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.start_circle {
+  position: absolute;
+  top: 0;
+  left: -70px;
+  transform: translateY(37%);
+  z-index: -1;
+  width: 700px;
+  height: 700px;
+  background-color: #8a7bb4;
+  clip-path: circle(43% at 0 50%);
+}
+
+/* Start section end */
+
+/* Section about start */
+
+.section__about_content {
+  position: relative;
+  max-width: 1200px;
+  min-height: 444px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 300px;
+}
+
+.about__content_bg {
+  margin-left: 280px;
+  margin-bottom: 100px;
+  min-width: 250px;
+  height: 311px;
+  background: url("../../../public/images/white\ cat.png") left / cover
+    no-repeat;
+}
+
+.about__content_text {
+  color: #283b40;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about_contnet_title {
+  font-family: Rubik;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 74.5px;
+  letter-spacing: 4.16px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-left: 122px;
+}
+
+.about_content_intro {
+  width: 1030px;
+  height: 140px;
+  background-color: #dec1e9;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 78px;
+  transform: translateX(-24%);
+  z-index: -1;
+  box-shadow: 6px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.about_content_intro p {
+  max-width: 716px;
+  color: #283b40;
+  font-family: Rubik;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44.5px;
+  letter-spacing: 2.34px;
+}
+
+.about_circle1 {
+  bottom: 40px;
+  left: 0;
+  position: absolute;
+  width: 444px;
+  height: 444px;
+  border-radius: 50%;
+  background-color: #c1cce9;
+  z-index: -2;
+}
+
+.about_circle2 {
+  position: absolute;
+  top: 145px;
+  left: 40px;
+  width: 130px;
+  height: 130px;
+  background-color: #e9c1c2;
+  border-radius: 50%;
+  opacity: 0.7;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.about_circle3 {
+  position: absolute;
+  right: -78px;
+  top: -100px;
+  width: 130px;
+  height: 130px;
+  background-color: #c1dee9;
+  border-radius: 50%;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+  opacity: 0.7;
+}
+
+.about_circle4 {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  bottom: 80px;
+  right: 45px;
+  background-color: #e9e8c1;
+  border-radius: 50%;
+  opacity: 0.7;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/* Section about end */
+
+/* Section mental health start */
+
+.section__mentalHealth_content {
+  margin: 0 auto;
+  max-width: 1535px;
+  display: flex;
+  margin-bottom: 199px;
+}
+
+.mentalHealth__content_bg {
+  width: 567px;
+  height: 522px;
+  background: url("../../../public/images/man\ playing\ dress\ up\ with\ pet\ dog.png")
+    left / cover no-repeat;
+  position: relative;
+}
+
+.mentalHealth__content_bg::before {
+  content: "1";
+  position: absolute;
+  top: -30px;
+  left: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 162px;
+  height: 162px;
+  border-radius: 50%;
+  background-color: #dec1e9;
+  color: #f9f9f9;
+  font-size: 140px;
+  font-weight: 400;
+  line-height: 78.5px;
+  letter-spacing: 9.1px;
+  font-family: Rubik;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.section__content_text {
+  color: #283b40;
+  font-family: Rubik;
+  max-width: 895px;
+}
+
+.content_text_title {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 74.5px;
+  letter-spacing: 3.25px;
+  text-transform: uppercase;
+}
+.content_text_descr {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 54.5px;
+  letter-spacing: 2.08px;
+}
+
+/* Section mental health end */
+
+/* Section socialization of animals start */
+
+.section__socialization_content {
+  margin: 0 auto;
+  max-width: 1535px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-bottom: 230px;
+}
+
+.section__socialization_content::before {
+  position: absolute;
+  bottom: -80px;
+  left: 35px;
+  content: "";
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: #c1c2e9;
+  opacity: 0.7;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.socialization__content_bg {
+  width: 513px;
+  height: 609px;
+  background: url("../../../public/images/dog\ birthday.png") left / cover
+    no-repeat;
+  position: relative;
+}
+
+.socialization__content_bg::after {
+  content: "2";
+  position: absolute;
+  top: -30px;
+  right: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 162px;
+  height: 162px;
+  border-radius: 50%;
+  background-color: #7383d9;
+  color: #f9f9f9;
+  font-size: 140px;
+  font-weight: 400;
+  line-height: 78.5px;
+  letter-spacing: 9.1px;
+  font-family: Rubik;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/* Section socialization of animals end */
+
+/* Section convenience start */
+
+.convenience__content_bg {
+  width: 577px;
+  height: 543px;
+  background: url("../../../public/images/Woman\ taking\ funny\ photo\ with\ dog.png")
+    left / cover no-repeat;
+  position: relative;
+}
+.convenience__content_text {
+  color: #283b40;
+  font-family: Rubik;
+  max-width: 895px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.convenience__content_text::after {
+  content: "";
+  position: absolute;
+  top: -50px;
+  right: 50px;
+  width: 162px;
+  height: 162px;
+  border-radius: 50%;
+  background-color: #c1e9d0;
+  opacity: 0.7;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.convenience__content_bg::before {
+  content: "3";
+  position: absolute;
+  top: 20px;
+  left: -80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 162px;
+  height: 162px;
+  border-radius: 50%;
+  background-color: #c97e54;
+  color: #f9f9f9;
+  font-size: 140px;
+  font-weight: 400;
+  line-height: 78.5px;
+  letter-spacing: 9.1px;
+  font-family: Rubik;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/* Section convenience end */
+
+.circle {
+  position: absolute;
+  top: -290px;
+  right: -53px;
+  width: 700px;
+  height: 700px;
+  clip-path: circle(56% at 74% 28%);
+
+  background-color: #8a7bb4;
+  z-index: -1;
+}
