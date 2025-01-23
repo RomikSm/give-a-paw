@@ -1,0 +1,44 @@
+.navbar a {
+  color: #283b40;
+  font-family: Rubik;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 74.5px;
+  letter-spacing: 2.34px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 208px;
+}
+
+.navbar a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 0.125rem;
+  background-color: #13121228;
+  transition: width 0.3s ease;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  color: #534678;
+}
+
+.active {
+  font-weight: bold;
+  transform: scale(1.1);
+}
